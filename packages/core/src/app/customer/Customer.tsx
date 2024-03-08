@@ -407,6 +407,7 @@ class Customer extends Component<CustomerProps & WithCheckoutCustomerProps & Ana
                     : updateSubscriptionWhenUnchecked,
             });
 
+
             onSubscribeToNewsletter(formValues.shouldSubscribe);
 
             SubscribeSessionStorage.setSubscribeStatus(formValues.shouldSubscribe);
