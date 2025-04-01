@@ -2,6 +2,35 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.570.1-prerelease.1743512086440](https://github.com/bigcommerce/checkout-js/compare/v1.561.4...v1.570.1-prerelease.1743512086440) (2025-04-01)
+
+
+### Features
+
+* **checkout:** CHECKOUT-8517 Display shipping discount on checkout page ([#2218](https://github.com/bigcommerce/checkout-js/issues/2218)) ([9b2f084](https://github.com/bigcommerce/checkout-js/commit/9b2f084798e2306a30c0817928810844aca00d28))
+* **checkout:** CHECKOUT-8994 Create New Customer Test ([#2163](https://github.com/bigcommerce/checkout-js/issues/2163)) ([2c20525](https://github.com/bigcommerce/checkout-js/commit/2c20525159e04de8d8ce28abcc6395881ef53ab4))
+* **checkout:** PI-3531 Deprecate Openpay code in Checkout ([#2220](https://github.com/bigcommerce/checkout-js/issues/2220)) ([9168f8b](https://github.com/bigcommerce/checkout-js/commit/9168f8b438dd2a07e070f437f34333ac73d381ae))
+* **other:** LOCAL-1444 delivery translation ([#2210](https://github.com/bigcommerce/checkout-js/issues/2210)) ([35202d0](https://github.com/bigcommerce/checkout-js/commit/35202d03964a4b8ba00a8af1cdd6846606796ef8))
+* **other:** LOCAL-1444 delivery translation ([#2223](https://github.com/bigcommerce/checkout-js/issues/2223)) ([2e3996a](https://github.com/bigcommerce/checkout-js/commit/2e3996a4f77603aa28ce583571bbed10dc453914))
+* **payment:** PI-2875 Google Pay promo codes handling ([de37bf9](https://github.com/bigcommerce/checkout-js/commit/de37bf9ac7d9ad6d2ef7f72a5440d2563d9ac93f))
+* **payment:** PI-3287 migrate unit tests from enzyme to RTL part 1 ([#2179](https://github.com/bigcommerce/checkout-js/issues/2179)) ([7b0eb1f](https://github.com/bigcommerce/checkout-js/commit/7b0eb1f6d02e68345db3a696cc57f58fc756b58a))
+* **payment:** PI-3436 migrate unit tests from enzyme to RTL ([#2200](https://github.com/bigcommerce/checkout-js/issues/2200)) ([efc8f7c](https://github.com/bigcommerce/checkout-js/commit/efc8f7c03394dfc9ef5125034b3980b309c6d113))
+* **payment:** PI-3505 Added Company Name fields to the Bluesnap Direct ECP implementation ([e47d54d](https://github.com/bigcommerce/checkout-js/commit/e47d54d36038c2406a8ce1ce282c600547625370))
+* **payment:** STRIPE-648 StripeUPE tests migration from Enzyme to RTL ([66620cd](https://github.com/bigcommerce/checkout-js/commit/66620cd52d0f0f6263d94447513c423dd37a0373))
+* **shipping:** CHECKOUT-8999 Bump checkout sdk ([#2178](https://github.com/bigcommerce/checkout-js/issues/2178)) ([bc252c1](https://github.com/bigcommerce/checkout-js/commit/bc252c17e64d1b55c839987bc1eb1b569cfe5e3b))
+
+
+### Bug Fixes
+
+* **checkout:** CHECKOUT-9086 add available shipping option check ([#2213](https://github.com/bigcommerce/checkout-js/issues/2213)) ([eb31fc3](https://github.com/bigcommerce/checkout-js/commit/eb31fc3beb1f3b96df8f8dce109505d7d85cbf22))
+* **payment:** STRIPE-660 Disable state code mapping for Spain in Stripe Link Address component ([17cc8be](https://github.com/bigcommerce/checkout-js/commit/17cc8bebe5cfb1f14f8036d489b5133351305449))
+* **payment:** STRIPE-696 Remove browser alert before Stripe UPE iDEAL redirect ([c7f3f70](https://github.com/bigcommerce/checkout-js/commit/c7f3f700b1334249d55e6a169fec3107fdb083be))
+
+
+### Code Refactoring
+
+* **payment:** PAYPAL-5251 removed PayPalExpress from core package ([cfc0ede](https://github.com/bigcommerce/checkout-js/commit/cfc0ede1c0d482c17c5595421d2f8806f7cc7390))
+
 ### [1.570.1-prerelease.1743509321591](https://github.com/bigcommerce/checkout-js/compare/v1.561.4...v1.570.1-prerelease.1743509321591) (2025-04-01)
 
 
