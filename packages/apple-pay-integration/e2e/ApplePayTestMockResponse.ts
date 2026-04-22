@@ -448,6 +448,7 @@ export const consignmentsAndBilling = `{
                 {
                     "additionalDescription": "",
                     "cost": 0,
+                    "costAfterDiscount": 0,
                     "description": "Free Shipping",
                     "id": "4dcbf24f457dd67d5f89bcf374e0bc9b",
                     "imageUrl": "",
@@ -466,6 +467,7 @@ export const consignmentsAndBilling = `{
             "selectedShippingOption": {
                 "additionalDescription": "",
                 "cost": 0,
+                "costAfterDiscount": 0,
                 "description": "Free Shipping",
                 "id": "4dcbf24f457dd67d5f89bcf374e0bc9b",
                 "imageUrl": "",
@@ -526,5 +528,6 @@ export const consignmentsAndBilling = `{
             "name": "Tax"
         }
     ],
-    "updatedTime": "2022-08-10T06:12:15+00:00"
+    "updatedTime": "2022-08-10T06:12:15+00:00",
+    "version": 1
 }`;
